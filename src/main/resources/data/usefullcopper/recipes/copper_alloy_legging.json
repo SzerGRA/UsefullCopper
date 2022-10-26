@@ -2,14 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "X": {
-      "item": "minecraft:iron_ingot"
+      "item": "usefullcopper:copper_alloy"
     }
   },
   "pattern": [
     "XXX",
+    "X X",
     "X X"
   ],
   "result": {
-    "item": "minecraft:iron_helmet"
+    "item": "usefullcopper:copper_alloy_legging"
   }
 }
