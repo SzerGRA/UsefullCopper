@@ -14,6 +14,4 @@ public class ModBlock {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, UsefullCopper.MODID);
 
-    public static final RegistryObject<Block> TEST_BLOCK = BLOCKS.register( "test_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE)));
-    public static final RegistryObject<Block> CUSTOM_BLOCK = BLOCKS.register( "custom_block", () -> new CustomBlock(BlockBehaviour.Properties.copy(Blocks.SLIME_BLOCK)));
 }

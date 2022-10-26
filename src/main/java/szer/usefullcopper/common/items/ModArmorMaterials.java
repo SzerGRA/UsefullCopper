@@ -8,13 +8,17 @@ import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import szer.usefullcopper.UsefullCopper;
+import szer.usefullcopper.core.ModItems;
 
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
 
-    COPPER("copper", 26, new int[]{2, 5, 7, 2}, 12, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+    COPPER("copper", 10, new int[]{2, 4, 5, 2}, 8, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
         return Ingredient.of(Items.COPPER_INGOT);
+    }),
+    COPPER_ALLOY("copper_alloy", 27, new int[]{2, 6, 7, 2}, 16, SoundEvents.ARMOR_EQUIP_IRON, 1.1F, 0.0F, () -> {
+        return Ingredient.of(ModItems.COPPER_ALLOY.get());
     });
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};

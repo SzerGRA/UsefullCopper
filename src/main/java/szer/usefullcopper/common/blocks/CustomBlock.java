@@ -19,19 +19,4 @@ public class CustomBlock extends Block {
         super(properties);
     }
 
-    @Override
-    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult result) {
-        player.setPos(player.getX(), player.getY() +4, player.getZ());
-        return super.use(state, level, pos, player, hand, result);
-
-
-    }
-
-    @Override
-    public void playerDestroy(Level level, Player p_49828_, BlockPos pos, BlockState p_49830_, @Nullable BlockEntity p_49831_, ItemStack p_49832_) {
-        Zombie zombie = EntityType.ZOMBIE.create(level);
-        zombie.setPos(pos.getX(), pos.getY(), pos.getX());
-        level.addFreshEntity(zombie);
-        super.playerDestroy(level, p_49828_, pos, p_49830_, p_49831_, p_49832_);
-    }
 }

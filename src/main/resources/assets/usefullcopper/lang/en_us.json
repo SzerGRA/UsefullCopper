@@ -1,4 +1,5 @@
 {
+  "itemGroup.Usefull Copper": "Usefull Copper",
   "item.usefullcopper.test_block": "Test Block",
   "item.usefullcopper.test_item": "Test Item",
   "item.usefullcopper.copper_alloy": "Copper Strengthened Iron",
@@ -6,5 +7,10 @@
   "item.usefullcopper.copper_helmet":"Copper Helmet",
   "item.usefullcopper.copper_chestplate":"Copper Chestplate",
   "item.usefullcopper.copper_legging":"Copper Leggings",
-  "item.usefullcopper.copper_boots":"Copper Boots"
+  "item.usefullcopper.copper_boots":"Copper Boots",
+
+  "item.usefullcopper.copper_alloy_helmet":"Copper Strengthened Iron Helmet",
+  "item.usefullcopper.copper_alloy_chestplate":"Copper Strengthened Iron Chestplate",
+  "item.usefullcopper.copper_alloy_legging":"Copper Strengthened Iron Leggings",
+  "item.usefullcopper.copper_alloy_boots":"Copper Strengthened Iron Boots"
 }
